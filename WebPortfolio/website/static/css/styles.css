@@ -1,0 +1,244 @@
+* {
+    font-family: 'Istok Web', sans-serif;
+    color: white;
+    
+}
+/*Website background color*/
+body > #bg {
+    height: 100%;
+    width: 100%;
+    background: rgb(187,196,251);
+    background: linear-gradient(0deg, rgba(187,196,251,1) 0%, rgba(95,79,252,1) 100%);
+    margin: 0; 
+    position: absolute;
+    z-index: -1; 
+    line-height: 1.6; 
+
+}
+
+/* HOME PAGE */ 
+
+.homeName {
+    width: 90%; 
+    font-size: 7vw; 
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 19%; 
+    left: 44%; 
+    transform: translate(-50%,-50%);
+    text-align: center;  
+}
+
+.name{
+    background: -webkit-linear-gradient(0deg, rgba(255,158,25,1) 0%, rgba(255,76,129,1) 69%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.homeNameDesc{
+    width: 65%;
+    line-height: 1;  
+    font-size: 5vw; 
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    position: absolute;
+    top: 25%; 
+    left: 16%; 
+}
+
+.aboutMeTitle {
+    width: 90%; 
+    font-size: 2vw;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold; 
+    position: absolute;
+    top: 50%; 
+    left: 22%; 
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.aboutMeText {
+    width: 67%; 
+    font-size: 1.7vw;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    top: 63%; 
+    left: 51%; 
+    transform: translate(-50%,-50%);
+    text-align: left;
+   
+}
+
+/* MY PROJECTS */
+
+.myProjectsTitle {
+    width: 90%; 
+    font-size: 2.57vw;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold; 
+    position: absolute;
+    top: 15%; 
+    left: 19%; 
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.todoAppHeader {
+    width: 60%; 
+    font-size: 1.74vw;
+    font-family: 'Nunito', sans-serif; 
+    position: absolute;
+    top: 23%; 
+    left: 43%; 
+    transform: translate(-50%,-50%);
+    text-align: left;
+} 
+
+.todoAppDesc {
+    width: 60%; 
+    font-size: 1.39vw;
+    font-family: 'Nunito', sans-serif; 
+    position: absolute;
+    top: 33%; 
+    left: 45%; 
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+
+.myWeb {
+    width: 60%; 
+    font-size: 1.74vw;
+    font-family: 'Nunito', sans-serif; 
+    position: absolute;
+    top: 45%; 
+    left: 43%; 
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+
+.webDesc{
+    width: 60%; 
+    font-size: 1.39vw;
+    font-family: 'Nunito', sans-serif; 
+    position: absolute;
+    top: 51%; 
+    left: 45%; 
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+
+
+.mySkillsTitle{
+    width: 90%; 
+    font-size: 2.57vw;
+    font-family: 'Nunito', sans-serif; 
+    font-weight: bold;
+    position: absolute;
+    top: 59%; 
+    left: 19%; 
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.currentLang{
+    width: 60%; 
+    font-size: 1.74vw;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    top: 66%; 
+    left: 45%; 
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+
+.learningLang{
+    width: 60%; 
+    font-size: 1.74vw;
+    font-family: 'Nunito', sans-serif; 
+    position: absolute;
+    top: 71%; 
+    left: 45%; 
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+
+.container{
+    font-size: 1.39vw;
+    padding: 30px;
+    width: min(90%, 70.5rem); 
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    text-align: left;
+    color: white;
+}
+
+/* LINKS BUTTONS + ANIMATION */
+.socials ul{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    top: 79%;
+    left: 47%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.socials ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+
+.socials ul li .fa{
+    font-size: 45px;
+    line-height: 65px;
+    transition: .6s;
+}
+
+.socials ul li .fa:hover{
+    color: white;
+}
+.socials ul li:nth-child(1) .fa:hover{
+    color: black;
+}
+
+.socials ul li a{
+    position: sticky; 
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 62px;
+    
+    background: rgba(109, 78, 247, 0.651); 
+    top: 55%; 
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .3); 
+}
+
+.socials ul li a:hover{
+    transform: translate(0,-10px);
+}
+.socials ul li:nth-child(1) a:hover{
+    background-color: white;
+}
+.socials ul li:nth-child(2) a:hover{
+    background-color: rgb(10, 102, 194) ;
+}
+.socials ul li:nth-child(3) a:hover{
+    background-color: rgb(248, 112, 58); 
+}
+.socials ul li:nth-child(4) a:hover{
+    background-color: rgb(153, 70, 248); 
+}
+
+
+
+
+
